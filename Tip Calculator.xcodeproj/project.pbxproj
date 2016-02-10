@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865616651C66EAB900BC0A36 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865616641C66EAB900BC0A36 /* SettingsViewController.swift */; };
 		8692A7FE1C642FFA003D3905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692A7FD1C642FFA003D3905 /* AppDelegate.swift */; };
 		8692A8001C642FFA003D3905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692A7FF1C642FFA003D3905 /* ViewController.swift */; };
 		8692A8031C642FFA003D3905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8692A8011C642FFA003D3905 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		865616641C66EAB900BC0A36 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		8692A7FA1C642FFA003D3905 /* Tip Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8692A7FD1C642FFA003D3905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8692A7FF1C642FFA003D3905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				8692A7FD1C642FFA003D3905 /* AppDelegate.swift */,
 				8692A7FF1C642FFA003D3905 /* ViewController.swift */,
 				8692A8011C642FFA003D3905 /* Main.storyboard */,
+				865616641C66EAB900BC0A36 /* SettingsViewController.swift */,
 				8692A8041C642FFA003D3905 /* Assets.xcassets */,
 				8692A8061C642FFA003D3905 /* LaunchScreen.storyboard */,
 				8692A8091C642FFA003D3905 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				8692A8001C642FFA003D3905 /* ViewController.swift in Sources */,
 				8692A7FE1C642FFA003D3905 /* AppDelegate.swift in Sources */,
+				865616651C66EAB900BC0A36 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				8692A80E1C642FFA003D3905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
